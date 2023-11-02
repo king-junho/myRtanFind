@@ -63,6 +63,7 @@ public class gameManager : MonoBehaviour
 
         if (time < 0.0f)
         {
+            time = 0f;
             if (!isEnd)
             {
                 endGame();
